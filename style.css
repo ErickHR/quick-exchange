@@ -1,0 +1,105 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* GENERAL CSS */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+.form-input{
+    border: 1px solid #7C8A9B;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-button-submit {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.text-title {
+    color : #A5ABBC;
+}
+
+.p-y-20{
+    margin: 20px 0px;
+}
+
+.p-y-10{
+    margin: 10px 0px;
+}
+
+/**/
+
+body{
+    background-color: #5F8AE0;
+}
+
+.container{
+    margin: 20px;
+    border: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.head__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__form__button{
+    padding: 8px;
+}
+
+.line-hr-form{
+    width: 100%;
+}
+
+.body__wrapper-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+
+.body__wrapper-card__dateexpired-input{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.body__wrapper__confirmate-save-info{
+    padding: 10px 0px;
+}
+
+.body__confirmate-save-info__form-input{
+    display: flex;
+    align-items: center;
+}
+
+.body__wrapper__region-country, .body__wrapper__city-zip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+}
+
+.body__phonenumber-form{
+    display: flex;
+}
+
+.body__phonenumber-form-select{
+    width: auto;
+}
+
+.body__wrapper__button-submit{
+    margin: 20px 0px;
+}
+
